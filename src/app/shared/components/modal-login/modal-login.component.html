@@ -1,0 +1,27 @@
+
+<section class="container-modal-login">
+<main class="modal-login">
+
+
+  <button class="modal-login-btn-sair" (click)="fechar($event)">X</button>
+
+
+<h1 mat-dialog-title>Olá, seja Bem Vindo!</h1>
+
+<mat-form-field appearance="fill">
+  <h3>Nome</h3>
+
+  <input matInput>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <h3>Email</h3>
+
+  <input matInput placeholder="pat@example.com">
+
+</mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="entrar($event)">Entrar</button>
+</main>
+</section>
+

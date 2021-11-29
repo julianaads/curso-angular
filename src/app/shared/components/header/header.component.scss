@@ -1,33 +1,52 @@
 
-ul{
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  list-style: none;
-  font-weight: bold;
-  font-family: 'Brush Script Std', cursive;
-  }
+// ul{
+//   display: flex;
+//   justify-content: center;
+//   gap: 100px;
+//   list-style: none;
+//   font-weight: bold;
+//   font-family: 'Brush Script Std', cursive;
+//   }
 
 .main-header{
   display: flex;
-  border: 1px solid black;
   background-color: #F28705;
 }
 
 .menu-opcoes{
   display:flex;
+  justify-content: center;
+  margin-left: 15%;
+
+}
+
+.menu-opcoes-btn {
+  justify-content: center;
+  margin-top:20%;
+  margin-left: 50%;
+  margin-right: 0;
+
+
+
 }
 
 button{
   background-color: #f7c58991;
-  border: 3px solid black;
+  background-color: #F28705;
   width: 205%;
   height: 40%;
+  padding-right: 30%;
+  justify-content: center;
+
 }
 
 img{
   width: 85%;
   height: 85%;
+
+
+  margin-top:5%;
+  margin-left: 5%;
 }
 
 
