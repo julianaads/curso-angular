@@ -17,6 +17,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ModalAtendimentoComponent } from './shared/components/modal-atendimento/modal-atendimento.component';
+import { AppRoutingModule } from './app-routing-modules';
+import { PromocaoComponent } from './shared/components/promocao/promocao.component';
+import { ConstrucaoComponent } from './shared/components/construcao/construcao.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { ModalAtendimentoComponent } from './shared/components/modal-atendimento
     FooterComponent,
     PrincipalComponent,
     ModalLoginComponent,
-    ModalAtendimentoComponent
+    ModalAtendimentoComponent,
+    PromocaoComponent,
+    ConstrucaoComponent
 
 
   ],
@@ -39,7 +44,8 @@ import { ModalAtendimentoComponent } from './shared/components/modal-atendimento
     MatDialogModule,
     MatFormFieldModule,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
